@@ -1,0 +1,144 @@
+body, div, a {
+    padding:0;
+    margin:0;
+    font-family:Helvetica;
+        	 
+}
+body{
+background: repeating-linear-gradient(
+  90deg,
+  #d6d6d6,
+  #d6d6d6 50px,
+  #ffffff 50px,
+  #ffffff 90px
+);
+
+}
+p{
+color:rgb(70,40,40);
+font-size:45px;
+padding:0px 510px 0px ;
+float:center;
+letter-spacing:0.5px;
+text-decoration: underline;
+
+}
+
+#calculator {
+	background-color: black;
+	width: 315px;
+	height: 470px;
+	border: 3px black solid;
+	margin: 10px auto;
+	padding: 10px;
+	border-radius: 10px;
+
+}
+#outputBox
+{
+    height: 70px;
+    width: 280px;
+    margin:auto;
+    background-color:white;
+    margin-bottom: 5px;
+    text-align: right;
+    padding: 0 15px 0 ;
+    font-size:100%;
+}
+#numbers, #operators {
+	margin:auto ;	
+
+}
+#operators a {
+	display: block;
+	width:73px;
+	height: 67px;
+	float: left;
+	color: black;
+	text-align: center;
+	font-size: 43px;
+	padding: 2px;
+	background-color:rgb(100,100,100);
+	margin: 0.5px 0.5px;
+	}
+#numbers a {
+	display: block;
+	width: 57px;
+	height: 57px;
+	float: left;
+	text-decoration: none;
+	color: black;
+	text-align: center;
+	font-size: 32pt;
+	padding: 10px;
+	margin: 0.5px 0.5px;
+	background-color:grey;	
+}
+#operators #plus,#numbers #divide,#numbers #subtract,#numbers #multiply,#numbers #equals
+{
+background-color:rgb(232,133,21);
+color:white;
+}
+a
+{
+cursor:pointer;
+}
+
+
+#numbers #line2 #subtract:hover,#numbers #line3 #multiply:hover,#numbers #line4 #divide:hover,#numbers #line5 #equals:hover,#operators #line1 #plus:hover
+{
+background-color:rgb(220,130,20);
+}
+
+#numbers a:hover
+{
+background-color:rgb(110,110,110);
+}
+
+#operators a:hover
+{
+background-color:rgb(80,80,80);
+}
+
+
+#numbers #line5 #zero
+{
+width:135px;
+}
+
+#footer{
+font-style:italic;
+font-size:14px;
+margin:0px 50px ;
+color:grey;
+border-top: dotted 2px;
+border-bottom: dotted 2px;
+}
+
+.hidden {
+	display: none;
+   }
+.visible {
+	display: block;
+	padding:0px 15px 20px;	   
+	color:grey;
+	font-size:22px;	
+	font-style:italic;
+}
+.visible h3{
+color:black;
+font-size:27px;
+padding:0px 5px ;
+font-style:normal;
+}
+#show,#hide{
+margin:0px 2px 50px;
+width:90px;
+height: 20px;
+color: black;
+text-align: center;	
+font-size: 20px;
+padding: 2px;
+margin: 0.5px 0.5px;
+background-color:rgb(100,100,100);
+}

@@ -1,0 +1,69 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<title>Calculator</title>
+	<link rel="stylesheet" href="calculator1.css" />
+	<script src="calculator.js"></script>
+	<script src="https://ajax.googleapis.com/ajax/libs/jquery/1.8.0/jquery.min.js"></script>
+	
+	<script src="calculator1.js"></script>
+</head>
+<body >
+                <p>Calculator </p>
+
+	<div id="calculator">
+	
+	<div class="calc">
+    	<input id="outputBox" style="font-size:60px" type="text" value="" />
+	
+	</div>
+	<div id="operators">
+		<div id="line1">
+		<a id="reset1" onclick="reset()">C</a>
+		<a onclick="percent()">%</a>
+		<a  onclick="plusMinus()">+/-</a>
+		<a id="plus" onclick="string = addToString('+')">+</a>
+		</div>
+	</div>
+	<div id="numbers">
+		<div id="line2">
+		<a onclick="string = addToString('1')">1</a>
+		<a onclick="string = addToString('2')">2</a>
+		<a onclick="string = addToString('3')">3</a>
+		<a id="subtract" onclick="string = addToString('-')">-</a>
+		</div>
+		<div id="line3">
+		<a onclick="string = addToString('4')">4</a>
+		<a onclick="string = addToString('5')">5</a>
+		<a onclick="string = addToString('6')">6</a>
+		<a id="multiply" onclick="string = addToString('*')">*</a>
+		</div>
+		<div id="line4">
+		<a onclick="string = addToString('7')">7</a>
+		<a onclick="string = addToString('8')">8</a>
+		<a onclick="string = addToString('9')">9</a>
+		<a id="divide" onclick="string = addToString('/')">/</a>
+		</div>
+		<div id="line5">
+		<a id="zero" onclick="string = addToString(0)">0</a>	
+		<a onclick="string = addToString('.')">.</a>
+		<a id="equals" onclick="equal()">=</a>
+			</div>
+</div>
+	</div>
+		<a id="show" onclick="show()">About Me</button>
+		<a id="hide" onclick="hide()">Hide Info</button>
+ 		<div class="hidden" id="about">
+		<h3>Self Intro</h3>
+		Hello everyone, I am <b>Ritul</b> from <b>C.S.E</b> department.<br>
+		I am basically from Raipur(C.G) but did study in Andhra since last 4 years<br>
+		My <b>Hobbies</b> are- Sketching,Playing chess,Watching movies,'Music'...<br>
+		And regarding <b>Induction</b> Process, it is <b>Awesome</b>, i got myself to learn many things regarding <b>'Web Development'</b>.<br>
+		The <b>Mentors</b> are Quite helpful. Turns out to be a nice and Handy Experience :)<br>
+		</div>
+			
+		<footer id="footer">::Posted by: Ritul Jain - (106114081)::<br>	
+				::Copyright © 2015-2016 Spider Inductions. 
+				Powered by vGithub 15::</footer>
+</body>
+</html>
